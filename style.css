@@ -1,0 +1,15 @@
+#container {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  width: 100%;
+  background-color: dodgerblue;
+}
+
+.divGrid {
+  flex-grow: 1;
+  flex-basis: 6%;
+  /* height: 100%; */
+  height: 50px;
+  border: 1px solid black;
+}
