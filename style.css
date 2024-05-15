@@ -8,8 +8,15 @@
 
 .divGrid {
   flex-grow: 1;
-  flex-basis: 6%;
+  /* flex-basis: 6%; */
+  width: 100%;
   /* height: 100%; */
-  height: 50px;
+  height: 10px;
   border: 1px solid black;
+  align-content: center;
+  text-align: center;
+}
+
+.divGrid:hover {
+  background-color: black;
 }
